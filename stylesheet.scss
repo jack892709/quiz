@@ -25,6 +25,8 @@
     background-image:url("assets/Stall_image_green.png");
     background-size: cover;
     background-position: center center;
+
+    position: relative;
 }
 
 .my_header {
@@ -46,3 +48,41 @@
         height: 100%;
     }
 }
+
+img.-logo {
+    width: 124.9px;
+    height: 81.9px;
+    margin: 0 13.2px 253.3px 178.3px;
+    object-fit: contain;
+}
+img.carrousel {
+    width: 170.2px;
+    height: 170.2px;
+    margin: 251.4px 103.5px 249.7px 0;
+    object-fit: contain;
+}
+img.display {
+    width: 713.7px;
+    height: 399.6px;
+    // margin: 225.3px 67.9px 46.5px 103.5px;
+    object-fit: contain;
+
+    position: absolute;
+    left: 325px;
+    top: 392.7px;
+}
+
+span {
+    width: 561.3px;
+    height: 51px;
+    margin: 9.3px 20.8px 15.5px 32.8px;
+    font-family: MicrosoftYaHeiBold-GBpc-EUC-H;
+    font-size: 41.7px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 8.35px;
+    text-align: center;
+    color: #333;
+  }
